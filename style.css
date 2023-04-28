@@ -5,6 +5,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 * {
   padding: 0;
   margin: 0;
@@ -16,7 +17,7 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: white;
+  color: #f2f2f2;
   text-align: center;
 }
 
@@ -24,6 +25,7 @@ main {
   display: inline-block;
   font-size: 5rem;
   word-wrap: break-word;
+  letter-spacing: 5px;
   width: 50%;
   margin-bottom: 2rem;
   margin: 20px auto;
@@ -45,13 +47,18 @@ header {
   width: 500px;
 }
 
-article {
+.article {
   background-color: #4f6a13;
   text-align: center;
   width: 260px;
   height: 260px;
   border-radius: 50%;
   overflow-y: hidden;
+}
+
+.article p {
+  text-align: center;
+  margin-top: 1.2rem;
 }
 
 .article1 {
